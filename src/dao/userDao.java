@@ -222,7 +222,7 @@ public class userDao {
 			s.setAccnumber(rs.getInt("accnumber"));	
 			s.setAddress(rs.getString("address"));
 			s.setAge(rs.getInt("age"));
-			s.setBiraddress("biraddress");
+			s.setBiraddress(rs.getString("biraddress"));
 			s.setChatlog(rs.getString("chatlog"));
 			s.setEmail(rs.getString("email"));
 			s.setName(rs.getString("name"));
